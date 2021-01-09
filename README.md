@@ -1,7 +1,7 @@
 # stock-analysis
 
 ## Overview of Project
-Steve wants to analyze different green energy stocks similar to Daqo (DQ) to help diversify his parent’s stock portfolio. I used VBA code to automate the analysis to allow Steve to reuse the code to look into different sets of stocks in the future.
+Steve, a finance graduate, wants to analyze different green energy stocks similar to Daqo (DQ) to help diversify his parent’s stock portfolio. I used VBA code to automate the analysis to allow Steve to reuse the code to look into different sets of stocks in the future.
 I created a worksheet to analyze a list of stocks and report the total daily volume (indicating how actively a stock is traded) and yearly return (percentage difference in price from the beginning to the end of the year) for each stock. Using conditional formatting, I highlighted positive returns as green and negative returns as red to make it easier to see which stocks performed well. 
 Steve also wants to see how fast the VBA code will compile the results so I programmed a script to calculate how long the code will take to execute and output the elapsed time in a message box. 
 
