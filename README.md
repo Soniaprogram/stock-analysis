@@ -1,7 +1,7 @@
 # stock-analysis
 
 ## Overview of Project
-Steve wants to analyze different green energy stocks similar to DAQO (DQ) to help diversify his parent’s stock portfolio. I used VBA code to automate the analysis to allow Steve to reuse the code to look into different sets of stocks in the future.
+Steve wants to analyze different green energy stocks similar to Daqo (DQ) to help diversify his parent’s stock portfolio. I used VBA code to automate the analysis to allow Steve to reuse the code to look into different sets of stocks in the future.
 I created a worksheet to analyze a list of stocks and report the total daily volume (indicating how actively a stock is traded) and yearly return (percentage difference in price from the beginning to the end of the year) for each stock. Using conditional formatting, I highlighted positive returns as green and negative returns as red to make it easier to see which stocks performed well. 
 Steve also wants to see how fast the VBA code will compile the results so I programmed a script to calculate how long the code will take to execute and output the elapsed time in a message box. 
 
@@ -22,7 +22,7 @@ The refactored script execution time for the 2017 dataset was 0.227s and for the
 ![image4: 2018 refactored code runtime](https://github.com/Soniaprogram/stock-analysis/blob/main/Resources/VBA_Challenge_2018.PNG)
 
 In both instances, the 2017 dataset took a little longer to execute. Analyzing the same dataset, the refactored script execution time is less than the original script execution time, averaging a difference of 0.6s. I believe this difference would be more apparent with an even larger dataset.
-In terms of stock performance, there were more positive returns in 2017 compared to 2018. The total daily volumes were also generally higher for most stocks but not all in 2017.
+In terms of stock performance, there were more positive returns in 2017 compared to 2018. The total daily volumes varied a bit. 5 stocks had a decreased total daily volume in 2018, whereas the remaining 7 had an increased total daily volume in 2018. However, it is difficult to see a direct correlation between the total daily volume change and positive/negative return of each stock. 
 
 ![image5: 2017 chart](https://github.com/Soniaprogram/stock-analysis/blob/main/Additional%20Screenshots/Results/2017chart.png)
 ![image6: 2018 chart](https://github.com/Soniaprogram/stock-analysis/blob/main/Additional%20Screenshots/Results/2018chart.PNG)
@@ -36,4 +36,4 @@ The disadvantages of refactoring code would be the time spent having to go back 
 
 #### How do these pros and cons apply to refactoring the original VBA script?
 
-The refactored code allowed for a faster runtime. The execution time of the original script for the 2017 dataset was 0.854s and for the 2018 dataset was 0.839s. However, the refactored script execution time for the 2017 dataset was 0.227s and for the 2018 dataset was 0.226s.
+The refactored code allowed for a faster runtime as seen by the calculated execution times. The execution time of the original script for the 2017 dataset was 0.854s and for the 2018 dataset was 0.839s. However, the refactored script execution time for the 2017 dataset was 0.227s and for the 2018 dataset was 0.226s.
