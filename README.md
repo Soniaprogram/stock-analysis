@@ -10,7 +10,7 @@ Steve wants to expand the dataset to include the entire stock market over the la
 
 ## Analysis
 
-### Deliverable 1: Refactor VBA Code and Measure Performance
+### Refactor VBA Code and Measure Performance
 
 #### Compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script
 The execution time of the original script for the 2017 dataset was 0.854s and for the 2018 dataset was 0.839s as seen below. 
@@ -31,9 +31,10 @@ In terms of stock performance, there were more positive returns in 2017 compared
 
 #### What are the advantages or disadvantages of refactoring code?
 
-The advantages of refactoring code are a faster runtime, requiring less steps, less memory, and easier code readability for future users since it only loops through all the data one time. 
-The disadvantages of refactoring code would be the time spent having to go back to the original code to make these changes. 
+The advantages of refactoring code are a faster runtime, requiring less steps, less memory, and easier code readability for future users since it only loops through all the data one time. It also allows for more adaptability as it can handle larger datasets with greater efficiency. 
+The disadvantages of refactoring code would be the time and money spent having to go back to the original code to make these changes. It also requires a good understanding of the original code in order to optimize it. 
 
 #### How do these pros and cons apply to refactoring the original VBA script?
 
-The refactored code allowed for a faster runtime as seen by the calculated execution times. The execution time of the original script for the 2017 dataset was 0.854s and for the 2018 dataset was 0.839s. However, the refactored script execution time for the 2017 dataset was 0.227s and for the 2018 dataset was 0.226s.
+The refactored code allowed for a faster runtime as seen by the calculated execution times. The execution time of the original script for the 2017 dataset was 0.854s and for the 2018 dataset was 0.839s. However, the refactored script execution time for the 2017 dataset was 0.227s and for the 2018 dataset was 0.226s. The lower execution time and heightened efficiency of the code is a definite pro. 
+The cons to refactoring seen would just be the time spent working to optimize the code. In this case, it involved creating three additional arrays for tickerVolumes, tickerStartingPrices, and tickerEndingPrices aside from the tickers array already existing in the original code. It also involved creating an additional variable “tickerIndex” to access the stock ticker index in the tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices arrays. Though this was not too time consuming to add to the refactored code, it did require a thorough understanding of the original code and how to incorporate arrays for efficiency.
